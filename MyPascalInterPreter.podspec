@@ -32,6 +32,27 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MyPascalInterPreter/Classes/**/*'
   
+  #
+  s.subspec 'Lexer' do |package|
+    package.source_files = 'MyPascalInterPreter/Classes/Lexer/**/*'
+  end
+
+  #
+  s.subspec 'Parser' do |package|
+    package.source_files = 'MyPascalInterPreter/Classes/Parser/**/*'
+  end
+  
+  #
+  s.subspec 'Interpreter' do |package|
+    package.source_files = 'MyPascalInterPreter/Classes/Interpreter/**/*'
+  end
+  
+  #
+  s.subspec 'SemanticAnalyzer' do |package|
+    package.source_files = 'MyPascalInterPreter/Classes/SemanticAnalyzer/**/*'
+  end
+
+  
   # s.resource_bundles = {
   #   'MyPascalInterPreter' => ['MyPascalInterPreter/Assets/*.png']
   # }

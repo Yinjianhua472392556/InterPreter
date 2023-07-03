@@ -1,27 +1,24 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - MyPascalInterPreter (0.1.0)
+  - MyPascalInterPreter (0.1.0):
+    - MyPascalInterPreter/Interpreter (= 0.1.0)
+    - MyPascalInterPreter/Lexer (= 0.1.0)
+    - MyPascalInterPreter/Parser (= 0.1.0)
+    - MyPascalInterPreter/SemanticAnalyzer (= 0.1.0)
+  - MyPascalInterPreter/Interpreter (0.1.0)
+  - MyPascalInterPreter/Lexer (0.1.0)
+  - MyPascalInterPreter/Parser (0.1.0)
+  - MyPascalInterPreter/SemanticAnalyzer (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - MyPascalInterPreter (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   MyPascalInterPreter:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MyPascalInterPreter: 5d3720f31d347ff55c7a0255794c2c342989e2f3
+  MyPascalInterPreter: 343e9e75e54fd24427b6b224b7f1eaadfe59ba3d
 
-PODFILE CHECKSUM: ee6c5aede0f66ac5cede381bbf416270fc41ed36
+PODFILE CHECKSUM: 4cf65791e42d45392406f6f99806d41e4dfc34b0
 
 COCOAPODS: 1.10.1
