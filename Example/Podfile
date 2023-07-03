@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MyPascalInterPreter_Example' do
+  pod 'MyPascalInterPreter', :path => '../'
+
+  target 'MyPascalInterPreter_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
